@@ -44,3 +44,4 @@ The cross-validation strategy is designed such that the images in the training a
 
 
 
+Second fold is chosen specifically because it contains the highest proportion of training data. Second fold has a larger number of samples compared to other folds, making it suitable for training the model.
