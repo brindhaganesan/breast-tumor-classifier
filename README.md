@@ -3,6 +3,9 @@ Histopathological images are fundamental in diagnosing breast cancer, offering d
 
 This capstone project aims to develop a robust and accurate breast tumor classifier using machine learning techniques applied to histopathological images. The primary objective is to create a model capable of distinguishing between benign and malignant tumors with high precision and recall, leveraging the rich information contained within histopathological images.
 
+<img width="1006" alt="github" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/d67febf1-5518-4761-9877-a307a47c22ad">
+
+
 ## Proposed Solution
 1. Preprocessing of Histopathological Images
 2. Feature Extraction and Representation
