@@ -30,9 +30,13 @@ The cross-validation strategy is designed such that the images in the training a
 
 ## Exploratory Data Analysis
 
-<img width="441" alt="class-imbalance" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/7ee6f4a9-0d2e-4234-b681-c0214309009c
+<img width="441" alt="class-imbalance" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/7afb1282-8306-4df5-8239-a5eb9938d980">
+
+
 
 <img width="763" alt="benign-malignant" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/90cbbdd0-ff14-4c84-9edc-5915c1259bd2">
+
+
 
 <img width="1000" alt="cross-validation" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/8987fad4-d4bc-478e-a851-b6a8bda46ae4">
 
