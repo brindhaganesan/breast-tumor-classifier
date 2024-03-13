@@ -27,3 +27,16 @@ The Breast Cancer Histopathological Image Classification (BreakHis) is composed 
 The authors of the dataset 'Folds.csv' have chosen to use a 5-fold cross-validation strategy. In this approach, the dataset is divided into five approximately equal-sized subsets (folds).
 
 The cross-validation strategy is designed such that the images in the training and test sets come from different individuals across each fold. This means that when the model is trained on a particular fold, it learns from data collected from certain individuals, and when it's tested on that fold, it's evaluated on data from different individuals. This helps in evaluating the model's ability to generalize to unseen individuals.
+
+## Exploratory Data Analysis
+
+<img width="441" alt="class-imbalance" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/7ee6f4a9-0d2e-4234-b681-c0214309009c
+
+<img width="763" alt="benign-malignant" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/90cbbdd0-ff14-4c84-9edc-5915c1259bd2">
+
+<img width="1000" alt="cross-validation" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/8987fad4-d4bc-478e-a851-b6a8bda46ae4">
+
+
+
+
+
