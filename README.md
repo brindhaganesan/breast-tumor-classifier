@@ -16,9 +16,9 @@ This capstone project aims to develop a robust and accurate breast tumor classif
 
 ## Files in the Repository for Sprint 2
 
-Folds.csv
-breast-tumor-classifier-eda-v2.ipynb
-Sprint 2 Brindha Ganesan - Breast Tumor Classifier.pdf
+- Folds.csv
+- breast-tumor-classifier-eda-v2.ipynb
+- Sprint 2 Brindha Ganesan - Breast Tumor Classifier.pdf
 
 
 ## Data Source
