@@ -14,6 +14,13 @@ This capstone project aims to develop a robust and accurate breast tumor classif
 5. Model Deployment
 6. Productizing the work using Steamlit application
 
+## Files in the Repository for Sprint 2
+
+Folds.csv
+breast-tumor-classifier-eda-v2.ipynb
+Sprint 2 Brindha Ganesan - Breast Tumor Classifier.pdf
+
+
 ## Data Source
 #### Breast Cancer Histopathological Database
 
