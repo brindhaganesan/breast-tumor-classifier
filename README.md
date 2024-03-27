@@ -29,11 +29,9 @@ This capstone project aims to develop a robust and accurate breast tumor classif
 The Breast Cancer Histopathological Image Classification (BreakHis) is composed of images of breast tumor tissue collected from 82 patients using different magnifying factors (40X, 100X, 200X, and 400X). To date, it contains 2,480 benign and 5,429 malignant samples (700X460 pixels, 3-channel RGB, 8-bit depth in each channel, PNG format).
 
 ## Folds.csv
-## Source of dataset 'Folds.csv' -  Kaggle
 
-The authors of the dataset 'Folds.csv' have chosen to use a 5-fold cross-validation strategy. In this approach, the dataset is divided into five approximately equal-sized subsets (folds).
-
-The cross-validation strategy is designed such that the images in the training and test sets come from different individuals across each fold. This means that when the model is trained on a particular fold, it learns from data collected from certain individuals, and when it's tested on that fold, it's evaluated on data from different individuals. This helps in evaluating the model's ability to generalize to unseen individuals.
+The BreaKHis dataset has been randomly divided into a training (70%) and a testing (30%) set. To make sure the classifier generalizes to unseen patients, the patients used to
+build the training set are not used for the testing set. The results presented in this work are the average of five trials.
 
 ## Exploratory Data Analysis
 
