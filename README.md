@@ -20,6 +20,11 @@ This capstone project aims to develop a robust and accurate breast tumor classif
 - breast-tumor-classifier-eda-v2.ipynb
 - Sprint 2 Brindha Ganesan - Breast Tumor Classifier.pdf
 
+## Files in the Repository for Sprint 2
+
+- sprint3-breast-tumor-classifier.ipynb
+- Sprint3 BrainStation Capstone Project.pdf
+
 
 ## Data Source
 #### Breast Cancer Histopathological Database
@@ -43,7 +48,6 @@ build the training set are not used for the testing set. The results presented i
 
 
 
-<img width="1000" alt="cross-validation" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/8987fad4-d4bc-478e-a851-b6a8bda46ae4">
 
 
 
