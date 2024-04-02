@@ -58,8 +58,20 @@ build the training set are not used for the testing set. The results presented i
 
 ## Performance Metrics
 
-ROC-AUC:   0.85752
-Accuracy:  0.83558
-Loss:      0.50510
+- ROC-AUC:   0.85752
+- Accuracy:  0.83558
+- Loss:      0.50510
+
+## Conclusion
+
+Thus,custom CNN model has demonstrated promising performance based on the following key metrics:
+
+ROC-AUC: The model achieves an ROC-AUC score of 0.85752, indicating its ability to effectively distinguish between positive and negative instances. With a score exceeding 0.5, the model significantly outperforms random guessing, suggesting robust discrimination capabilities.
+
+Accuracy: The model achieves an accuracy of 0.83558, implying that approximately 83.56% of the model's predictions are correct. While accuracy provides a general overview of the model's performance, it may not fully capture its ability to balance true positives and true negatives, particularly in imbalanced datasets.
+
+Loss: The model's loss value stands at 0.50510, representing the average error during training. Lower loss values indicate better alignment between predicted and true labels. While the loss is relatively moderate, further optimization may be explored to minimize discrepancies between predictions and ground truth labels.
+
+In conclusion, while the custom classification CNN model demonstrates commendable performance, ongoing refinement and validation are crucial for ensuring its effectiveness in real-world applications.
 
 
