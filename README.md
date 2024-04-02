@@ -20,7 +20,7 @@ This capstone project aims to develop a robust and accurate breast tumor classif
 - breast-tumor-classifier-eda-v2.ipynb
 - Sprint 2 Brindha Ganesan - Breast Tumor Classifier.pdf
 
-## Files in the Repository for Sprint 2
+## Files in the Repository for Sprint 3
 
 - sprint3-breast-tumor-classifier.ipynb
 - Sprint3 BrainStation Capstone Project.pdf
@@ -47,10 +47,19 @@ build the training set are not used for the testing set. The results presented i
 <img width="763" alt="benign-malignant" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/90cbbdd0-ff14-4c84-9edc-5915c1259bd2">
 
 
+## Train Test Split
+
+<img width="632" alt="train-test" src="https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/ee315297-b825-432c-9ddf-b8d26287f5b8">
+
+## Custom CNN
+
+![CNNs](https://github.com/brindhaganesan/breast-tumor-classifier/assets/50005288/c587919d-64b7-4430-951a-005dde5fd539)
 
 
+## Performance Metrics
+
+ROC-AUC:   0.85752
+Accuracy:  0.83558
+Loss:      0.50510
 
 
-
-
-Second fold is chosen specifically because it contains the highest proportion of training data. Second fold has a larger number of samples compared to other folds, making it suitable for training the model.
