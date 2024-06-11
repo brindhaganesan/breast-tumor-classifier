@@ -72,7 +72,7 @@ def get_prediction(image: Image.Image | tf.Tensor) -> None:
     )
 
 
-sample_images = get_sample_image_files()
+
 model = load_model()
 
 upload_tab, sample_tab = st.tabs(["Upload an image", "Use a sample image"])
@@ -86,12 +86,4 @@ with upload_tab:
             st.image(img.numpy().astype("uint8"))
             get_prediction(img)
 
-with sample_tab:
-    if st.button("Get sample image", type="primary"):
-        # Randomly select a sample image
-        label = np.random.choice(["benign", "malignant"])
-        image_list = sample_images[label]
-        idx = np.random.choice(len(image_list))
-        st.image(image_list[idx], caption=f"{label} sample")
-        get_prediction(image_list[idx])
 
