@@ -109,9 +109,3 @@ with sample_tab:
         st.image(image_list[idx], caption=f"{label} sample")
         get_prediction(image_list[idx])
 
-st.caption(
-    "Exploratory data analysis and model training were performed in "
-    "[this Kaggle notebook][nb].\n\n"
-    "[nb]: https://www.kaggle.com/code/timothyabwao/detecting-breast-cancer"
-    "-with-computer-vision"
-)
