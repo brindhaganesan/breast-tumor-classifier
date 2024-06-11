@@ -47,7 +47,7 @@ def load_model() -> tf.keras.Model:
     Returns:
         tf.keras.Model: Trained convolutional neural network.
     """
-    return tf.keras.models.load_model('custom_cnn_model.keras')
+    return tf.keras.models.load_model('custom_cnn_new.h5')
 
 
 def get_prediction(image: Image.Image | tf.Tensor) -> None:
