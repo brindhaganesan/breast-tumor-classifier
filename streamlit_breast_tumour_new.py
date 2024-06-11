@@ -8,7 +8,7 @@ from PIL import Image
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
 IMG_SIZE = 224
-SAMPLE_IMG_DIR = Path("sample_images")
+
 
 title = "Breast Cancer Detector"
 st.set_page_config(page_title=title)
@@ -38,20 +38,6 @@ def load_image(
         img = img.convert("RGB")  # Ensure image is in RGB mode
         img = tf.image.resize_with_pad(img, IMG_SIZE, IMG_SIZE)
     return img
-
-
-@st.cache_data
-def get_sample_image_files() -> dict[str, list]:
-    """Fetch processed sample images, grouped by label.
-
-    Returns:
-        dict: Keys are labels ("benign" / "malignant"). Values are lists of
-        images.
-    """
-    return {
-        dir.name: [load_image(file) for file in dir.glob("*.jpg")]
-        for dir in SAMPLE_IMG_DIR.iterdir()
-    }
 
 
 @st.cache_resource
