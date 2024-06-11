@@ -60,7 +60,7 @@ def load_model() -> tf.keras.Model:
     Returns:
         tf.keras.Model: Trained convolutional neural network.
     """
-    return tf.keras.models.load_model('https://github.com/brindhaganesan/breast-tumor-classifier/blob/ac084d55c7212af95f1b39bf78c0392a6833a7c8/custom_cnn_model.h5')
+    return tf.keras.models.load_model("custom_cnn_model.h5")
 
 
 def get_prediction(image: Image.Image | tf.Tensor) -> None:
