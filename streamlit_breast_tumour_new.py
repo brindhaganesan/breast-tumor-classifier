@@ -75,7 +75,7 @@ def get_prediction(image: Image.Image | tf.Tensor) -> None:
 
 model = load_model()
 
-upload_tab, sample_tab = st.tabs(["Upload an image", "Use a sample image"])
+upload_tab = st.tabs(["Upload an image"])
 
 with upload_tab:
     with st.form("image-input-form", clear_on_submit=True):
